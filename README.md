@@ -1,4 +1,4 @@
-# Developer Documentation for API Metrics Tracking Spring Boot Project
+# Documentation for API Metrics Tracking Spring Boot Project
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -170,7 +170,9 @@ public class ApiMetricsController {
     }
 }
 ```
-
+### API Endpoints
+http://localhost:8080/api/metrics
+http://localhost:8080/api/metrics/{apiName}
 ## Testing
 
 This section describes how to test the API Metrics Tracking Spring Boot application using Postman and cURL. 
@@ -263,6 +265,7 @@ public class ApiMetricsServiceTest {
     }
 }
    ```
-```
 mvn test
 ```
+### Conclusion
+Feel Free to Star and Fork the repo.
